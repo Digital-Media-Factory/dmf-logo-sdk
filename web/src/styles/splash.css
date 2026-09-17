@@ -1,0 +1,12 @@
+/* Optional global typography and reset styles for DMF Logo SDK */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+.dmf-splash-container {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dmf-splash-container * {
+  box-sizing: border-box;
+}

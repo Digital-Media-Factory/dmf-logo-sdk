@@ -1,0 +1,57 @@
+{
+  "name": "dmf-logo-sdk",
+  "version": "0.0.1",
+  "description": "Official Digital Media Factory (DMF) logo and animated kinetic splash screen SDK for React and Next.js.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup && cp src/styles/splash.css dist/styles.css",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  },
+  "keywords": [
+    "dmf",
+    "splash-screen",
+    "animation",
+    "kinetic",
+    "react",
+    "nextjs",
+    "logo-sdk"
+  ],
+  "author": "Digital Media Factory",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalMediaFactory/dmf-logo-sdk.git",
+    "directory": "web"
+  },
+  "homepage": "https://digitalmediafactory.org"
+}

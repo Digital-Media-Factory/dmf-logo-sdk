@@ -1,10 +1,13 @@
 # DMF LOGO SDK (Flutter)
 
-[![pub package](https://img.shields.io/badge/pub-v0.0.1-blue.svg)](https://pub.dev/packages/dmf_logo_sdk)
+[![pub package](https://img.shields.io/pub/v/dmf_logo_sdk.svg?logo=dart)](https://pub.dev/packages/dmf_logo_sdk)
 [![Flutter](https://img.shields.io/badge/Flutter-3.13+-02569B.svg?logo=flutter)](https://flutter.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Website](https://img.shields.io/badge/Website-digitalmediafactory.org-black)](https://digitalmediafactory.org)
 
 Official **[Digital Media Factory (DMF)](https://digitalmediafactory.org)** animated splash screen and brand mark SDK for **Flutter** featuring physics-based kinetic transitions, multi-style brand marks, and luxury dual-theme palettes.
+
+> 📦 **Official pub.dev Package**: [https://pub.dev/packages/dmf_logo_sdk](https://pub.dev/packages/dmf_logo_sdk)
 
 ---
 
@@ -26,7 +29,7 @@ Official **[Digital Media Factory (DMF)](https://digitalmediafactory.org)** anim
 
 ## 📦 Installation
 
-### 1. From pub.dev
+### 1. From pub.dev (Recommended)
 
 Add the package to your `pubspec.yaml`:
 

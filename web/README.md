@@ -1,14 +1,17 @@
 # DMF LOGO SDK (Web)
 
-[![npm package](https://img.shields.io/npm/v/dmf-logo-sdk.svg?color=blue)](https://www.npmjs.com/package/dmf-logo-sdk)
+[![npm package](https://img.shields.io/npm/v/dmf-logo-sdk.svg?color=blue&logo=npm)](https://www.npmjs.com/package/dmf-logo-sdk)
 [![React](https://img.shields.io/badge/React-18%20%7C%2019-61DAFB?logo=react&logoColor=black)](https://react.dev)
 [![Next.js](https://img.shields.io/badge/Next.js-13%20%7C%2014%20%7C%2015-black?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Website](https://img.shields.io/badge/Website-digitalmediafactory.org-black)](https://digitalmediafactory.org)
 
 Official **[Digital Media Factory (DMF)](https://digitalmediafactory.org)** animated kinetic splash screen and logo SDK for **Next.js** and **React**.
 
 Mirrors the kinetic physics, dual-theme palettes, and multi-style branding of the Flutter mobile SDK with $100\%$ visual and mathematical parity.
+
+> 📦 **Official npm Package**: [https://www.npmjs.com/package/dmf-logo-sdk](https://www.npmjs.com/package/dmf-logo-sdk)
 
 ---
 
@@ -27,6 +30,8 @@ Mirrors the kinetic physics, dual-theme palettes, and multi-style branding of th
 ---
 
 ## Installation
+
+Install the package via npm, pnpm, or yarn:
 
 ```bash
 npm install dmf-logo-sdk

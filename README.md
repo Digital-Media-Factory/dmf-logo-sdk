@@ -1,10 +1,17 @@
 # Digital Media Factory (DMF) Logo & Splash SDK
 
-[![Flutter](https://img.shields.io/badge/Flutter-Mobile%20SDK-02569B.svg?logo=flutter)](mobile/)
-[![React](https://img.shields.io/badge/React%20%2F%20Next.js-Web%20SDK-61DAFB?logo=react&logoColor=black)](web/)
+[![pub package](https://img.shields.io/pub/v/dmf_logo_sdk.svg?logo=dart)](https://pub.dev/packages/dmf_logo_sdk)
+[![npm package](https://img.shields.io/npm/v/dmf-logo-sdk.svg?color=blue&logo=npm)](https://www.npmjs.com/package/dmf-logo-sdk)
+[![Flutter](https://img.shields.io/badge/Flutter-Mobile%20SDK-02569B.svg?logo=flutter)](https://pub.dev/packages/dmf_logo_sdk)
+[![React](https://img.shields.io/badge/React%20%2F%20Next.js-Web%20SDK-61DAFB?logo=react&logoColor=black)](https://www.npmjs.com/package/dmf-logo-sdk)
+[![Website](https://img.shields.io/badge/Website-digitalmediafactory.org-black)](https://digitalmediafactory.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 The official **[Digital Media Factory (DMF)](https://digitalmediafactory.org)** brand mark and kinetic animated splash screen SDK for **Flutter (Mobile)** and **Next.js / React (Web)**.
+
+> 📱 **Flutter Package (pub.dev)**: [https://pub.dev/packages/dmf_logo_sdk](https://pub.dev/packages/dmf_logo_sdk)  
+> 🌐 **Web Package (npm)**: [https://www.npmjs.com/package/dmf-logo-sdk](https://www.npmjs.com/package/dmf-logo-sdk)  
+> 🏢 **Official Website**: [https://digitalmediafactory.org](https://digitalmediafactory.org)
 
 Both platforms share $100\%$ visual and mathematical parity, delivering physics-based entrance transitions, dual luxury color palettes, and multiple brand lockup styles.
 
@@ -34,6 +41,7 @@ dmf-logo-sdk/
 
 | Feature | Mobile (Flutter) | Web (Next.js & React) |
 | :--- | :--- | :--- |
+| **Package Registry** | [![pub](https://img.shields.io/pub/v/dmf_logo_sdk.svg?logo=dart)](https://pub.dev/packages/dmf_logo_sdk)<br>[pub.dev/packages/dmf_logo_sdk](https://pub.dev/packages/dmf_logo_sdk) | [![npm](https://img.shields.io/npm/v/dmf-logo-sdk.svg?logo=npm)](https://www.npmjs.com/package/dmf-logo-sdk)<br>[npmjs.com/package/dmf-logo-sdk](https://www.npmjs.com/package/dmf-logo-sdk) |
 | **Package Directory** | [`mobile/`](mobile/) | [`web/`](web/) |
 | **Main Component** | `SplashScreen` | `<SplashScreen />` |
 | **Style 1: One-Line Emblem** | `LogoStyle.dmfOneLine` | `LogoStyle.dmfOneLine` |

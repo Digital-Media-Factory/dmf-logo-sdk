@@ -1,3 +1,8 @@
+## 0.0.3
+
+* Changed light mode background to pure white (`#FFFFFF`) while maintaining radial gradients in dark mode.
+* Updated theme documentation and styling.
+
 ## 0.0.2
 
 * Initial release of the DMF Logo SDK for Flutter.

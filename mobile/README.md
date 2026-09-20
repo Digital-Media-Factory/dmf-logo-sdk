@@ -35,7 +35,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  dmf_logo_sdk: ^0.0.2
+  dmf_logo_sdk: ^0.0.3
 ```
 
 Or run:

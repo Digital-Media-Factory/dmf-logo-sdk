@@ -20,7 +20,7 @@ Official **[Digital Media Factory (DMF)](https://digitalmediafactory.org)** anim
   - `LogoStyle.dmfOneLine`: Authentic horizontal D-M-F emblem with staggered kinetic text (`p o w e r e d`, `DIGITAL`, `MEDIA FACTORY`).
   - `LogoStyle.dmfFullLogo`: Full official lockup logo (`[ DMF ] DIGITAL MEDIA FACTORY`).
 - 🎨 **Curated Luxury Palettes**:
-  - **Warm Cream Light (`isDark: false`)**: Signature luminous studio center (`#FFFDF8`) radiating into warm cream (`#FAF4E6`).
+  - **Pure White Light (`isDark: false`)**: Clean solid white background (`#FFFFFF`).
   - **Deep Obsidian Dark (`isDark: true`)**: Luminous deep navy center (`#1E293B`) into rich obsidian (`#131B2E`) and edge vignette (`#090E17`).
 - 🔤 **Embedded Variable Typography**: Bundled with official `Outfit` and `Plus Jakarta Sans` variable fonts.
 - ⚡ **Seamless Navigation**: Supports `onAnimationComplete` callbacks with context or parameterless handlers for easy `Navigator.pushReplacement`.
@@ -72,7 +72,7 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SplashScreen(
       initialLogoStyle: LogoStyle.dmfOneLine, // or LogoStyle.dmfFullLogo
-      isDark: true,                           // true = Deep Obsidian, false = Warm Cream
+      isDark: true,                           // true = Deep Obsidian (gradient), false = Pure White
       onAnimationComplete: (context) {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (_) => const HomePage()),
@@ -98,7 +98,7 @@ class FullLogoSplash extends StatelessWidget {
   Widget build(BuildContext context) {
     return SplashScreen(
       initialLogoStyle: LogoStyle.dmfFullLogo,
-      isDark: false, // Warm cream light mode
+      isDark: false, // Pure white light mode
       onAnimationComplete: () {
         debugPrint('Animation complete!');
       },
@@ -141,7 +141,7 @@ class BrandHeader extends StatelessWidget {
 | Parameter | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
 | `initialLogoStyle` | `LogoStyle` | `LogoStyle.dmfOneLine` | Determines whether to render the kinetic one-line emblem (`dmfOneLine`) or full logo (`dmfFullLogo`). |
-| `isDark` | `bool` | `false` | `false` activates Warm Cream light palette, `true` activates Deep Obsidian dark palette. Automatically sets system status bar overlay style. |
+| `isDark` | `bool` | `false` | `false` activates Pure White light palette, `true` activates Deep Obsidian dark palette (with radial gradient). Automatically sets system status bar overlay style. |
 | `onAnimationComplete` | `dynamic` | `null` | Callback invoked upon completion ($2400\text{ ms}$). Accepts either `void Function(BuildContext)` or `VoidCallback () => ...`. |
 
 ### `LogoStyle` (Enum)

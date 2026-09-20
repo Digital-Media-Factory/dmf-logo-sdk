@@ -35,11 +35,11 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({
 
   const isFullLogo = String(initialLogoStyle) === LogoStyle.dmfFullLogo;
 
-  // Dynamic Luxury Palettes: Warm Cream Light vs Deep Obsidian Dark (matching Flutter)
-  const bgColor = isDark ? '#0C121E' : '#FAF4E6';
-  const gradientBackground = isDark
+  // Dynamic Luxury Palettes: Pure White Light vs Deep Obsidian Dark (matching Flutter)
+  const bgColor = isDark ? '#0C121E' : '#FFFFFF';
+  const background = isDark
     ? 'radial-gradient(circle at 50% 42.5%, #1E293B 0%, #131B2E 55%, #090E17 100%)'
-    : 'radial-gradient(circle at 50% 42.5%, #FFFDF8 0%, #FAF4E6 55%, #F2ECE0 100%)';
+    : '#FFFFFF';
 
   const poweredColor = isDark ? '#94A3B8' : '#78716C';
   const primaryTextColor = isDark ? '#F8FAFC' : '#141D2F';
@@ -47,7 +47,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({
 
   const containerStyle: React.CSSProperties = {
     backgroundColor: bgColor,
-    background: gradientBackground,
+    background,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',

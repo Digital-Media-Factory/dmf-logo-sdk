@@ -18,7 +18,7 @@ Mirrors the kinetic physics, dual-theme palettes, and multi-style branding of th
 ## Features
 
 - ⚡ **Next.js Ready**: Full `'use client'` support for Next.js App Router (13/14/15) and Pages Router.
-- 🎨 **Dual Luxury Themes**: Signature Warm Cream Light (`#FAF4E6`) and Deep Obsidian Dark (`#0C121E`).
+- 🎨 **Dual Luxury Themes**: Pure White Light (`#FFFFFF`) and Deep Obsidian Dark (`#0C121E` with radial gradient).
 - 💎 **Two Brand Styles**:
   - `LogoStyle.dmfOneLine`: Authentic horizontal D-M-F emblem + `p o w e r e d` + `DIGITAL` + `MEDIA FACTORY` kinetic text.
   - `LogoStyle.dmfFullLogo`: Full official lockup logo.
@@ -122,7 +122,7 @@ export function Header() {
 | Prop | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
 | `initialLogoStyle` | `'dmfOneLine' \| 'dmfFullLogo'` | `'dmfOneLine'` | Brand style variant to display. |
-| `isDark` | `boolean` | `false` | `false` for warm cream light palette, `true` for deep obsidian dark. |
+| `isDark` | `boolean` | `false` | `false` for pure white light palette, `true` for deep obsidian dark (with radial gradient). |
 | `onAnimationComplete` | `() => void` | `undefined` | Callback triggered when the $2400\text{ ms}$ kinetic animation finishes. |
 | `duration` | `number` | `2400` | Total duration of the animation sequence in milliseconds. |
 | `fullscreen` | `boolean` | `true` | When `true`, occupies fixed full viewport (`position: fixed`). When `false`, sizes relative to parent container. |

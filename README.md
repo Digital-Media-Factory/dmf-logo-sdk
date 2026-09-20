@@ -46,7 +46,7 @@ dmf-logo-sdk/
 | **Main Component** | `SplashScreen` | `<SplashScreen />` |
 | **Style 1: One-Line Emblem** | `LogoStyle.dmfOneLine` | `LogoStyle.dmfOneLine` |
 | **Style 2: Full Official Logo** | `LogoStyle.dmfFullLogo` | `LogoStyle.dmfFullLogo` |
-| **Theme Modes** | `isDark: false` (Warm Cream)<br>`isDark: true` (Deep Obsidian) | `isDark: false` (Warm Cream)<br>`isDark: true` (Deep Obsidian) |
+| **Theme Modes** | `isDark: false` (Pure White)<br>`isDark: true` (Deep Obsidian) | `isDark: false` (Pure White)<br>`isDark: true` (Deep Obsidian) |
 | **Kinetic Physics** | `BallLaunchCurve` ($1.12$ overshoot)<br>`TextOvershootCurve` ($1.55$ / $1.45$) | Exact mathematical TypeScript implementation |
 | **Duration** | $2400\text{ ms}$ (customizable) | $2400\text{ ms}$ (customizable) |
 | **Typography** | Bundled `Outfit` & `Plus Jakarta Sans` | Dynamic Google Fonts auto-injector |

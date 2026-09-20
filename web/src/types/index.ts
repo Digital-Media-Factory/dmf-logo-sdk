@@ -22,7 +22,7 @@ export interface SplashScreenProps {
   initialLogoStyle?: LogoStyleType;
 
   /**
-   * Theme mode: false for signature warm cream palette, true for deep obsidian navy palette.
+   * Theme mode: false for pure white light palette, true for deep obsidian navy palette.
    * @default false
    */
   isDark?: boolean;

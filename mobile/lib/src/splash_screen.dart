@@ -43,9 +43,6 @@ class _SplashScreenState extends State<SplashScreen>
   late LogoStyle _logoStyle;
 
   // Curated Luxury Color Palette
-  static const Color creamBg = Color(
-    0xFFFAF4E6,
-  ); // Luxury warm off-white (from video)
   static const Color darkNavy = Color(0xFF141D2F); // Deep obsidian navy
 
   @override
@@ -207,19 +204,8 @@ class _SplashScreenState extends State<SplashScreen>
     final bool isDark = widget.isDark;
     final bool isFullLogo = _logoStyle == LogoStyle.dmfFullLogo;
 
-    // Dynamic Luxury Palettes: Warm Cream Light vs Deep Obsidian Dark
-    final Color bgColor = isDark ? const Color(0xFF0C121E) : creamBg;
-    final List<Color> gradientColors = isDark
-        ? const [
-            Color(0xFF1E293B), // Subtle luminous deep navy center
-            Color(0xFF131B2E), // Rich obsidian body
-            Color(0xFF090E17), // Deep edge vignette
-          ]
-        : const [
-            Color(0xFFFFFDF8), // Luminous studio center
-            Color(0xFFFAF4E6), // Signature warm cream
-            Color(0xFFF2ECE0), // Soft vignetting at edges
-          ];
+    // Dynamic Luxury Palettes: Pure White Light vs Deep Obsidian Dark
+    final Color bgColor = isDark ? const Color(0xFF0C121E) : Colors.white;
 
     final Color poweredColor = isDark
         ? const Color(0xFF94A3B8)
@@ -241,12 +227,19 @@ class _SplashScreenState extends State<SplashScreen>
       backgroundColor: bgColor,
       body: Container(
         decoration: BoxDecoration(
-          gradient: RadialGradient(
-            center: const Alignment(0.0, -0.15),
-            radius: 0.95,
-            colors: gradientColors,
-            stops: const [0.0, 0.55, 1.0],
-          ),
+          color: isDark ? null : Colors.white,
+          gradient: isDark
+              ? const RadialGradient(
+                  center: Alignment(0.0, -0.15),
+                  radius: 0.95,
+                  colors: [
+                    Color(0xFF1E293B), // Subtle luminous deep navy center
+                    Color(0xFF131B2E), // Rich obsidian body
+                    Color(0xFF090E17), // Deep edge vignette
+                  ],
+                  stops: [0.0, 0.55, 1.0],
+                )
+              : null,
         ),
         child: Center(
           child: AnimatedBuilder(

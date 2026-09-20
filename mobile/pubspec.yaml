@@ -1,8 +1,8 @@
 name: dmf_logo_sdk
 description: "Official Digital Media Factory (DMF) logo and animated splash screen SDK for Flutter with physics-based kinetic transitions."
-version: 0.0.1
+version: 0.0.2
 homepage: https://digitalmediafactory.org
-repository: https://github.com/DigitalMediaFactory/dmf-logo-sdk/tree/main/mobile
+repository: https://github.com/Digital-Media-Factory/dmf-logo-sdk/tree/main/mobile
 environment:
   sdk: ^3.13.0
   flutter: ">=1.17.0"

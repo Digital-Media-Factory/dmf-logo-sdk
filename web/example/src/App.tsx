@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react';
 import { SplashScreen, LogoStyle } from 'dmf-logo-sdk';
 
 export function App() {
-  const [isDark] = useState<boolean>(true);
+  // const [isDark] = useState<boolean>(true);
   const [animationKey] = useState<number>(0);
 
   const handleAnimationComplete = useCallback(() => {
